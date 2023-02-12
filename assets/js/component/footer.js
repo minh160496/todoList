@@ -19,7 +19,9 @@ function footer({ todoList, filter, filters }) {
                     }" 
                       href="#/" onclick="dispatch('fil', '${
                         filterItem[0] + filterItem.slice(1)
-                      }')">${filterItem[0] + filterItem.slice(1)}</a>
+                      }')">${
+                    filterItem[0].toUpperCase() + filterItem.slice(1)
+                  }</a>
                 </li>
                 
                 `

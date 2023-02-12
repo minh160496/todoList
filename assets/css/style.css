@@ -47,7 +47,9 @@ body {
 }
 
 #app {
-  max-width: 100%;
+  width: calc(100% - 20px);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .todoapp {
